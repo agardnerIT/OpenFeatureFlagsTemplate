@@ -92,7 +92,7 @@
 			"state": "ENABLED",
 			"targeting": {
 				"if": [{
-						"$ref": "emailWithFaas"
+						"$ref": "emailWithOpenFeature"
 					},
 					{
 						"fractionalEvaluation": [
@@ -145,7 +145,7 @@
 		}
 	},
 	"$evaluators": {
-		"emailWithFaas": {
+		"emailWithOpenFeature": {
 			"in": ["@openfeature.dev", {
 				"var": ["email"]
 			}]
