@@ -130,7 +130,7 @@
 			"state": "ENABLED",
 			"targeting": {
 				"if": [{
-						"in": ["@faas.com", {
+						"in": ["@openfeature.dev", {
 							"var": "email"
 						}]
 					}, "second",
@@ -146,7 +146,7 @@
 	},
 	"$evaluators": {
 		"emailWithFaas": {
-			"in": ["@faas.com", {
+			"in": ["@openfeature.dev", {
 				"var": ["email"]
 			}]
 		}
